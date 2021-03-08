@@ -1,0 +1,14 @@
+finished:false
+turnNumber:0
+player1Score:2
+player2Score:2
+currentPlayer:BLACK
+board:
+null;null;null;null;null;null;null;null;
+null;null;null;null;null;null;null;null;
+null;null;null;b;null;null;null;null;
+null;null;b;W;B;null;null;null;
+null;null;null;B;W;b;null;null;
+null;null;null;null;b;null;null;null;
+null;null;null;null;null;null;null;null;
+null;null;null;null;null;null;null;null;

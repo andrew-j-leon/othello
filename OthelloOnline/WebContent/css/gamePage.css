@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Style sheet for the (main) game page */
+
+html
+{
+	text-align: center;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+
+th, td {
+	vertical-align: middle;
+	text-align: center;
+	background-color: #8f5902;
+}
+
+
+div.Piece {
+	width: 80px;
+	height: 65px;
+	
+	padding-top: 15px;
+}
+
+
+
+div.Box {
+	float: left;
+	height: auto;
+	display: inline-block;
+	
+	text-align: center;
+	
+	border-color: black;
+}
+
+
+div.Board {
+	padding-left: 20px;
+	
+	width: 60vw;
+	
+	boarder-color: green;
+}
+
+
+div.Information {
+	width: 30vw;
+	
+	boarder-color: yellow;
+}
+
+
+
+p.Score {
+	font-size: 20px;
+}
+
+p.TurnNumber {
+	font-size: 24px;
+}
+
+
+/*
+On thinner screens, place the information below the
+board, then center both on the screen.
+*/
+@media screen and (max-width: 1100px)
+{	
+	div.Box
+	{
+		float: none;
+	}
+	
+	
+	div.Information
+	{
+		width: 90%;
+	}
+	
+	
+	div.Board
+	{
+		width: auto;
+	}
+	
+	
+	div.Board,
+	div.Information
+	{ 
+		padding-left: 0px;
+	}
+}
+

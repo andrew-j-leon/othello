@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+a.NewGame {
+	background-color: #009C1F;
+	color: black;
+	padding: 15px 25px;
+	text-align: center;	
+	font-size: 24px;
+	text-decoration: none;
+}
+
+
+a.NewGame:hover, a.NewGame:active {
+	background-color: #00B324;
+}
